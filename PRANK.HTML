@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prank Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        #content {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .logo {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <img src="https://via.placeholder.com/100" alt="Logo" class="logo">
+        <p>This is the work ok, nacc everyone should do this!</p>
+    </div>
+
+    <script>
+        setTimeout(function() {
+            document.getElementById('content').innerHTML = '<p style="color: red; font-size: 30px;">నువ్వు ఎరి పుకుడు వి బ్రో</p>';
+        }, 3000);
+    </script>
+</body>
+</html>
